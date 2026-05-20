@@ -90,7 +90,7 @@ The following analyses were performed:
 
 ## 📷 Dashboard Preview
 
-![Dashboard](Dashboard.png)
+![Dashboard](dashboard/Dashboard.png)
 
 
 ## 📁 Updated Project Structure
