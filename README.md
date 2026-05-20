@@ -88,6 +88,11 @@ The following analyses were performed:
 
 ---
 
+## 📷 Dashboard Preview
+
+![Dashboard](dashboard.png)
+
+
 ## 📁 Updated Project Structure
 
 ```text
