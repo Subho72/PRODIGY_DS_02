@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 This project focuses on performing Data Cleaning and Exploratory Data Analysis (EDA) on the Titanic dataset from Kaggle.
 
-The main objective of this project is to:
+The objective of this project is to:
 - Clean and preprocess the dataset
 - Handle missing values
 - Explore relationships between variables
@@ -50,7 +50,7 @@ The following preprocessing steps were performed:
 ✅ Filled missing Age values using median  
 ✅ Filled missing Embarked values using mode  
 ✅ Replaced missing Cabin values with "Unknown"  
-✅ Removed duplicate records (if any)  
+✅ Removed duplicate records (if any)
 
 ---
 
@@ -75,6 +75,7 @@ The following analyses were performed:
 - Age Distribution Histogram
 - Fare Analysis Chart
 - Correlation Heatmap
+- Tableau Dashboard
 
 ---
 
@@ -83,21 +84,26 @@ The following analyses were performed:
 - Female passengers had a higher survival rate than male passengers.
 - First-class passengers survived more frequently than lower-class passengers.
 - Most passengers belonged to the age group of 20–40 years.
-- Passenger fare and class influenced survival probability.
+- Passenger fare and passenger class influenced survival probability.
 
 ---
 
-## 📁 Project Structure
+## 📁 Updated Project Structure
 
 ```text
 Titanic_EDA_Project/
 │
-├── train.csv
-├── test.csv
-├── gender_submission.csv
-├── cleaned_titanic.csv
-├── Titanic_EDA.ipynb
-├── Titanic_EDA_Dashboard.twb
-├── dashboard.png
-├── README.md
-└── charts/
+├── data/
+│   ├── train.csv
+│   ├── test.csv
+│   ├── gender_submission.csv
+│   └── cleaned_titanic.csv
+│
+├── notebooks/
+│   └── Titanic_EDA.ipynb
+│
+├── dashboard/
+│   ├── Titanic_EDA_Dashboard.twb
+│   └── dashboard.png
+│
+└── README.md
